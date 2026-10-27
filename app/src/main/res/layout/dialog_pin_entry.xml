@@ -6,7 +6,7 @@
     android:paddingTop="8dp"
     android:paddingBottom="8dp">
 
-    <pl.lebihan.authnkey.PinInputField
+    <com.swissbit.ishield.fidobridge.PinInputField
         android:id="@+id/pinInputField"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

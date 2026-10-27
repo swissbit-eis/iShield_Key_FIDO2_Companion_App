@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Authnkey</string>
+    <string name="app_name">iShield Key FIDO Bridge</string>
 
     <!-- Credential Provider Service -->
-    <string name="credential_provider_subtitle">Passkeys on hardware Security Keys</string>
-    <string name="credential_entry_title">Security Key</string>
-    <string name="credential_create_description">Create passkey on your security key for %1$s</string>
-    <string name="credential_get_description">Use your security key for %1$s</string>
+    <string name="credential_provider_subtitle">Passkeys on your Swissbit iShield Key 2</string>
+    <string name="credential_entry_title">iShield Key 2</string>
+    <string name="credential_create_description">Create a passkey on your iShield Key 2 for %1$s</string>
+    <string name="credential_get_description">Use your iShield Key 2 for %1$s</string>
 
     <!-- Bottom Sheet -->
-    <string name="security_key">Security Key</string>
+    <string name="security_key">iShield Key 2</string>
     <string name="create_passkey">Create Passkey</string>
     <string name="sign_in">Sign In</string>
     <string name="cancel">Cancel</string>
@@ -18,32 +18,32 @@
     <string name="no">No</string>
 
     <!-- Instructions -->
-    <string name="instruction_connect_key">Hold your security key against the back of your phone, or plug it in via USB</string>
-    <string name="instruction_connect_key_nfc_only">Hold your security key against the back of your phone</string>
-    <string name="instruction_connect_key_usb_only">Plug your security key in via USB</string>
-    <string name="instruction_no_transport">No usable connection method</string>
-    <string name="instruction_touch_key">Touch your security key to confirm…</string>
+    <string name="instruction_connect_key">Hold your iShield Key 2 against the back of your phone, or plug it in via USB</string>
+    <string name="instruction_connect_key_nfc_only">Hold your iShield Key 2 against the back of your phone</string>
+    <string name="instruction_connect_key_usb_only">Plug your iShield Key 2 in via USB</string>
+    <string name="instruction_no_transport">NFC and USB are unavailable</string>
+    <string name="instruction_touch_key">Touch your iShield Key 2 to confirm…</string>
     <string name="instruction_signing_in">Signing in…</string>
     <string name="instruction_creating">Creating passkey…</string>
-    <string name="instruction_enter_pin">Enter your security key PIN</string>
+    <string name="instruction_enter_pin">Enter your iShield Key 2 PIN</string>
     <string name="instruction_usb_permission_denied">USB permission denied. Try again or use NFC.</string>
     <string name="instruction_usb_permission_denied_no_nfc">USB permission denied. Try again.</string>
-    <string name="instruction_key_connected">Security key connected</string>
-    <string name="instruction_connecting_usb">Connecting to USB device…</string>
+    <string name="instruction_key_connected">iShield Key 2 connected</string>
+    <string name="instruction_connecting_usb">Connecting to iShield Key 2…</string>
     <string name="instruction_authenticating">Authenticating…</string>
     <string name="instruction_initializing">Initializing…</string>
     <string name="instruction_verifying">Verifying…</string>
     <string name="instruction_verifying_pin">Verifying PIN…</string>
-    <string name="instruction_tag_lost">Lost contact with the security key\n\nReposition and hold until completion</string>
-    <string name="instruction_waiting_biometric">Touch the fingerprint sensor on your security key…</string>
+    <string name="instruction_tag_lost">Lost contact with the iShield Key 2\n\nReposition and hold until completion</string>
+    <string name="instruction_waiting_biometric">Touch the fingerprint sensor on your iShield Key 2…</string>
 
     <!-- NFC hint -->
     <string name="hint_nfc_off">NFC is off</string>
     <string name="action_turn_on_nfc">Turn on</string>
 
     <!-- PIN Dialog -->
-    <string name="pin_dialog_title">Security Key PIN</string>
-    <string name="pin_dialog_message">Enter your security key PIN</string>
+    <string name="pin_dialog_title">iShield Key 2 PIN</string>
+    <string name="pin_dialog_message">Enter your iShield Key 2 PIN</string>
     <string name="pin_hint">Enter PIN</string>
     <string name="pin_hint_current">Current PIN</string>
     <string name="pin_hint_new">New PIN</string>
@@ -71,53 +71,53 @@
     <string name="error_metadata">Error getting metadata: %1$s</string>
     <string name="error_enumerate_credentials">Failed to load credentials for %1$s: %2$s</string>
     <string name="error_pins_dont_match">New PINs don\'t match</string>
-    <string name="error_uv_required_no_pin">Verification required but no PIN is set on your security key</string>
+    <string name="error_uv_required_no_pin">Verification required but no PIN is set on your iShield Key 2</string>
     <string name="error_pin_not_supported_for_operation">Verification required but PIN cannot be used for this operation</string>
 
     <!-- User-friendly error messages (used by ErrorMapping) -->
-    <string name="error_tag_lost">Lost contact with the security key</string>
-    <string name="error_not_supported_tag">This NFC tag is not a security key</string>
-    <string name="error_not_security_key">Security key not recognized</string>
-    <string name="error_connection_failed">Could not connect to the security key</string>
-    <string name="error_not_connected">No security key connected</string>
-    <string name="error_key_disconnected">The security key disconnected</string>
-    <string name="error_communication_failed">Could not communicate with the security key</string>
-    <string name="error_no_credentials">No passkeys found on this security key</string>
+    <string name="error_tag_lost">Lost contact with your iShield Key 2</string>
+    <string name="error_not_supported_tag">This NFC device is not a supported iShield Key 2</string>
+    <string name="error_not_security_key">iShield Key 2 not recognized</string>
+    <string name="error_connection_failed">Could not connect to your iShield Key 2</string>
+    <string name="error_not_connected">No iShield Key 2 connected</string>
+    <string name="error_key_disconnected">The iShield Key 2 disconnected</string>
+    <string name="error_communication_failed">Could not communicate with your iShield Key 2</string>
+    <string name="error_no_credentials">No passkeys found on this iShield Key 2</string>
     <string name="error_pin_incorrect">Incorrect PIN</string>
     <string name="error_pin_blocked">PIN is blocked</string>
-    <string name="error_pin_not_set">No PIN configured on this security key</string>
+    <string name="error_pin_not_set">No PIN configured on your iShield Key 2</string>
     <string name="error_pin_auth_invalid">PIN authentication failed</string>
     <string name="error_pin_auth_blocked">Too many failed PIN attempts</string>
     <string name="error_credential_excluded">This passkey already exists</string>
-    <string name="error_operation_denied">Operation denied by security key</string>
+    <string name="error_operation_denied">Operation denied by your iShield Key 2</string>
     <string name="error_operation_cancelled">Operation cancelled</string>
     <string name="error_user_action_timeout">Touch was not detected in time</string>
     <string name="error_timeout">Operation timed out</string>
-    <string name="error_key_store_full">Security key storage is full</string>
+    <string name="error_key_store_full">The iShield Key 2 storage is full</string>
     <string name="error_unsupported_algorithm">Unsupported security algorithm</string>
-    <string name="error_ctap_unknown">Security key error: %1$s</string>
+    <string name="error_ctap_unknown">iShield Key 2 error: %1$s</string>
     <string name="error_unknown">An unexpected error occurred</string>
 
     <!-- Content descriptions -->
-    <string name="security_key_icon_desc">Security Key</string>
+    <string name="security_key_icon_desc">iShield Key 2</string>
     <string name="drag_handle_desc">Drag handle</string>
     <string name="toggle_keyboard_type">Toggle keyboard type</string>
 
     <!-- MainActivity (Debug) -->
     <string name="usb_permission_denied">USB permission denied</string>
-    <string name="security_key_detected">Security key detected</string>
+    <string name="security_key_detected">iShield Key 2 detected</string>
     <string name="nfc_error">NFC Error: %1$s</string>
     <string name="usb_error">USB Error: %1$s</string>
     <string name="ok">OK</string>
-    <string name="connecting_usb">Connecting to USB device…</string>
+    <string name="connecting_usb">Connecting to iShield Key 2…</string>
     <string name="using_nfc">Using NFC</string>
     <string name="using_usb">Using USB</string>
     <string name="not_connected">Not connected</string>
-    <string name="waiting_for_key">Hold your security key against the back of your phone, or plug it in via USB</string>
+    <string name="waiting_for_key">Hold your iShield Key 2 against the back of your phone, or plug it in via USB</string>
     <string name="connection_lost">Connection lost</string>
     <string name="waiting_reconnection">Waiting for reconnection…</string>
     <string name="connection_lost_title">Connection Lost</string>
-    <string name="connection_lost_message">Hold your security key against the back of your phone to continue.</string>
+    <string name="connection_lost_message">Hold your iShield Key 2 against the back of your phone to continue.</string>
     <string name="operation_cancelled">Operation cancelled</string>
     <string name="reading_device_info">Reading device info…</string>
     <string name="checking_cred_mgmt">Checking credential management support…</string>
@@ -134,52 +134,52 @@
     <string name="loading_credentials_for">Loading credentials for %1$s…</string>
     <string name="credential_progress_title">Reading Credentials</string>
     <string name="credential_progress_rp_count">Site %1$d of %2$d</string>
-    <string name="credential_progress_hold_key">Keep your security key against the back of your phone.</string>
+    <string name="credential_progress_hold_key">Keep your iShield Key 2 against the back of your phone.</string>
     <string name="checking_pin_status">Checking PIN status…</string>
     <string name="pin_retries_status">PIN retries remaining: %1$d</string>
     <string name="change_pin_title">Change PIN</string>
     <string name="set_pin_title">Set PIN</string>
     <string name="set">Set</string>
     <string name="setting_pin">Setting PIN…</string>
-    <string name="no_pin_set_message">No PIN is set on this authenticator</string>
+    <string name="no_pin_set_message">No PIN is set on your iShield Key 2</string>
     <string name="change">Change</string>
     <string name="initializing_pin_protocol">Initializing PIN protocol…</string>
     <string name="changing_pin">Changing PIN…</string>
     
     <!-- PIN Change Status Messages -->
     <string name="pin_change_success_title">PIN Changed Successfully</string>
-    <string name="pin_change_success_message">Your authenticator PIN has been changed.\nPlease use the new PIN for future operations.</string>
+    <string name="pin_change_success_message">Your iShield Key 2 PIN has been changed.\nPlease use the new PIN for future operations.</string>
     
     <string name="pin_invalid_title">Invalid PIN</string>
     <string name="pin_invalid_message">The current PIN you entered is incorrect.\n\nPlease verify your current PIN and try again.</string>
     
     <string name="pin_blocked_title">PIN Blocked</string>
-    <string name="pin_blocked_message">Your authenticator PIN is blocked due to too many incorrect attempts.\n\nYou will need to reset your authenticator.</string>
+    <string name="pin_blocked_message">Your iShield Key 2 PIN is blocked due to too many incorrect attempts.\n\nYou will need to reset your iShield Key 2.</string>
     
     <string name="pin_policy_violation_title">PIN Policy Violation</string>
-    <string name="pin_policy_violation_message">The new PIN does not meet the authenticator\'s requirements.\n\nPINs must be at least 4 characters (or more, depending on the authenticator) and at most 63 bytes.</string>
+    <string name="pin_policy_violation_message">The new PIN does not meet the iShield Key 2 requirements.\n\nPINs must be at least 4 characters (or more, depending on the authenticator) and at most 63 bytes.</string>
     
     <string name="pin_not_set_title">No PIN Set</string>
-    <string name="pin_not_set_message">Your authenticator does not have a PIN set.\n\nUse "Set PIN" instead of "Change PIN".</string>
+    <string name="pin_not_set_message">Your iShield Key 2 does not have a PIN set.\n\nUse "Set PIN" instead of "Change PIN".</string>
 
     <string name="pin_set_success_title">PIN Set Successfully</string>
-    <string name="pin_set_success_message">Your authenticator PIN has been set.\nPlease use this PIN for future operations.</string>
+    <string name="pin_set_success_message">Your iShield Key 2 PIN has been set.\nPlease use this PIN for future operations.</string>
 
     <string name="pin_already_set_title">PIN Already Set</string>
-    <string name="pin_already_set_message">A PIN is already configured on this authenticator.</string>
+    <string name="pin_already_set_message">A PIN is already configured on your iShield Key 2.</string>
 
     <string name="pin_set_failed_title">PIN Set Failed</string>
-    <string name="pin_set_failed_message">Error: %1$s\n\nPlease try again or consult your authenticator\'s documentation.</string>
+    <string name="pin_set_failed_message">Error: %1$s\n\nPlease try again or consult the iShield Key 2 documentation.</string>
     
     <string name="pin_change_failed_title">PIN Change Failed</string>
-    <string name="pin_change_failed_message">Error: %1$s\n\nPlease try again or consult your authenticator\'s documentation.</string>
+    <string name="pin_change_failed_message">Error: %1$s\n\nPlease try again or consult the iShield Key 2 documentation.</string>
     
     <!-- Credential Management -->
     <string name="credential_management_title">Credential Management</string>
-    <string name="credential_management_not_supported">This authenticator does not support credential management.</string>
+    <string name="credential_management_not_supported">This iShield Key 2 does not support credential management.</string>
     <string name="credential_stored_count">Stored credentials: %1$d</string>
     <string name="credential_remaining_slots">Remaining slots: %1$d</string>
-    <string name="credential_no_credentials">No credentials stored on this device.</string>
+    <string name="credential_no_credentials">No passkeys are stored on this iShield Key 2.</string>
     <string name="credential_no_rps">No relying parties found.</string>
     <string name="credential_found_rps">Found %1$d relying party(ies):</string>
     <string name="credential_rp_name">Name: %1$s</string>
@@ -205,7 +205,7 @@
     <string name="device_info_section_algorithms">Supported Algorithms</string>
     <string name="device_info_section_limits">Limits</string>
     <string name="device_info_section_uv_modality">Supported User Verification Methods</string>
-    <string name="device_info_dialog_title">Device Status</string>
+    <string name="device_info_dialog_title">iShield Key 2 Status</string>
 
     <!-- Device Info Option Names -->
     <string name="device_info_option_rk">Resident Keys</string>
@@ -259,7 +259,7 @@
     <string name="credential_detail_protection">Protection</string>
     <string name="credential_delete">Delete credential</string>
     <string name="credential_delete_confirm_title">Delete credential?</string>
-    <string name="credential_delete_confirm_message">This will permanently delete the passkey for %1$s. You won\'t be able to sign in to this site with this security key anymore.</string>
+    <string name="credential_delete_confirm_message">This will permanently delete the passkey for %1$s. You won\'t be able to sign in to this site with this iShield Key 2 anymore.</string>
     <string name="credential_deleted">Credential deleted</string>
     <string name="credential_delete_error">Failed to delete: %1$s</string>
     <string name="delete">Delete</string>

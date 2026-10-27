@@ -1,27 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Provider status - enabled (light theme) -->
-    <color name="provider_enabled_background">#E8F5E9</color>
-    <color name="provider_enabled_text">#2E7D32</color>
-    
-    <!-- Provider status - not enabled (light theme) -->
-    <color name="provider_not_enabled_background">#FFF3E0</color>
-    <color name="provider_not_enabled_text">#E65100</color>
-    <color name="provider_button_outline">#606750A4</color>
-    
-    <!-- Provider status - not supported (light theme) -->
-    <color name="provider_not_supported_background">#FFEBEE</color>
-    <color name="provider_not_supported_text">#C62828</color>
-    
-    <!-- Inline hint row (light theme) -->
-    <color name="hint_background">#FFF3E0</color>
-    <color name="hint_text">#E65100</color>
-    
-    <!-- Tag lost warning state -->
-    <color name="warning_container">#FED7AA</color>
-    
-    <!-- Delete/destructive action -->
-    <color name="destructive_action">#C62828</color>
+    <!-- Swissbit corporate palette -->
+    <color name="swissbit_white">#FFFFFF</color>
+    <color name="swissbit_black">#111111</color>
+
+    <color name="swissbit_cyan_bright">#F4FBFD</color>
+    <color name="swissbit_blue_light">#19BAFF</color>
+    <color name="swissbit_blue_normal">#009EE3</color>
+    <color name="swissbit_blue_darker">#0382B9</color>
+    <color name="swissbit_blue_dark">#006996</color>
+    <color name="swissbit_blue_container">#D5F2FF</color>
+
+    <color name="swissbit_green_light">#81C92E</color>
+    <color name="swissbit_green_normal">#77B42B</color>
+    <color name="swissbit_green_darker">#69A326</color>
+    <color name="swissbit_green_dark">#54831F</color>
+    <color name="swissbit_green_container">#EEF7E5</color>
+
+    <color name="swissbit_yellow">#FFAA00</color>
+    <color name="swissbit_orange">#E15800</color>
+    <color name="swissbit_red">#E3400B</color>
+    <color name="swissbit_red_dark">#BD3C19</color>
+    <color name="swissbit_ruby">#BD1944</color>
+    <color name="swissbit_ruby_dark">#AA173F</color>
+    <color name="swissbit_ruby_container">#FBE8ED</color>
+
+    <color name="swissbit_grey_light">#F8F8F8</color>
+    <color name="swissbit_grey_bright_2">#F0F0F0</color>
+    <color name="swissbit_grey_bright">#CCCCCC</color>
+    <color name="swissbit_grey_middle">#9B9B9B</color>
+    <color name="swissbit_grey_dark_standard">#4A4A4A</color>
+    <color name="swissbit_grey_dark_standard_alt">#393939</color>
+    <color name="swissbit_grey_dark">#111111</color>
+
+    <!-- Provider enabled -->
+    <color name="provider_enabled_background">@color/swissbit_green_container</color>
+    <color name="provider_enabled_text">@color/swissbit_green_dark</color>
+
+    <!-- Provider not enabled -->
+    <color name="provider_not_enabled_background">#FFF4DE</color>
+    <color name="provider_not_enabled_text">@color/swissbit_orange</color>
+    <color name="provider_button_outline">@color/swissbit_blue_normal</color>
+
+    <!-- Provider not supported -->
+    <color name="provider_not_supported_background">@color/swissbit_ruby_container</color>
+    <color name="provider_not_supported_text">@color/swissbit_ruby_dark</color>
+
+    <!-- Inline hint -->
+    <color name="hint_background">@color/swissbit_cyan_bright</color>
+    <color name="hint_text">@color/swissbit_blue_dark</color>
+
+    <!-- Warnings and destructive actions -->
+    <color name="warning_container">#FFF4DE</color>
+    <color name="destructive_action">@color/swissbit_ruby</color>
     
     <!-- Letter avatar colors (background / text pairs) -->
     <array name="avatar_background_colors">

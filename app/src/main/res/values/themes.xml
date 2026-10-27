@@ -1,22 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.Authnkey" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Theme.Authnkey" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Swissbit typography -->
+        <item name="fontFamily">@font/fago_no</item>
+        <item name="android:fontFamily">@font/fago_no</item>
+
+        <!-- Swissbit Material palette -->
+        <item name="colorPrimary">@color/swissbit_blue_normal</item>
+        <item name="colorOnPrimary">@color/swissbit_white</item>
+        <item name="colorPrimaryContainer">@color/swissbit_blue_container</item>
+        <item name="colorOnPrimaryContainer">@color/swissbit_blue_dark</item>
+
+        <item name="colorSecondary">@color/swissbit_green_normal</item>
+        <item name="colorOnSecondary">@color/swissbit_white</item>
+        <item name="colorSecondaryContainer">@color/swissbit_green_container</item>
+        <item name="colorOnSecondaryContainer">@color/swissbit_green_dark</item>
+
+        <item name="colorTertiary">@color/swissbit_blue_dark</item>
+        <item name="colorOnTertiary">@color/swissbit_white</item>
+
+        <item name="colorError">@color/swissbit_ruby</item>
+        <item name="colorOnError">@color/swissbit_white</item>
+        <item name="colorErrorContainer">@color/swissbit_ruby_container</item>
+        <item name="colorOnErrorContainer">@color/swissbit_ruby_dark</item>
+
+        <item name="colorOutline">@color/swissbit_grey_middle</item>
+
+        <!-- Keep light-mode when the phone uses dark mode -->
+        <item name="android:forceDarkAllowed">false</item>
+        
+        <!-- Authnkey system-bar behavior -->
         <item name="android:statusBarColor">?android:colorBackground</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:navigationBarColor">?android:colorBackground</item>
         <item name="android:windowLightNavigationBar">true</item>
     </style>
 
-    <style name="Theme.Authnkey.Dialog" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Theme.Authnkey.Dialog" parent="Theme.Authnkey">
         <item name="android:windowBackground">?android:colorBackground</item>
-        <item name="android:statusBarColor">?android:colorBackground</item>
-        <item name="android:windowLightStatusBar">true</item>
-        <item name="android:navigationBarColor">?android:colorBackground</item>
-        <item name="android:windowLightNavigationBar">true</item>
     </style>
 
     <!-- Transparent activity for bottom sheet -->
-    <style name="Theme.Authnkey.Transparent" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Theme.Authnkey.Transparent" parent="Theme.Authnkey">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -24,5 +49,12 @@
         <item name="android:backgroundDimEnabled">false</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <!-- Use Swissbit branded headings -->
+    <style name="TextAppearance.IShieldKey.Headline" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="fontFamily">@font/handel_gothic_d_light</item>
+        <item name="android:fontFamily">@font/handel_gothic_d_light</item>
+        <item name="android:textColor">@color/swissbit_blue_dark</item>
     </style>
 </resources>

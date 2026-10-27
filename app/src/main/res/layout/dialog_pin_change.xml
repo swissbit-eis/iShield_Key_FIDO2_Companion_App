@@ -8,7 +8,7 @@
     android:paddingTop="8dp"
     android:paddingBottom="8dp">
 
-    <pl.lebihan.authnkey.PinInputField
+    <com.swissbit.ishield.fidobridge.PinInputField
         android:id="@+id/currentPin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,7 +16,7 @@
         app:minPinLength="0"
         style="@style/Widget.Material3.TextInputLayout.OutlinedBox" />
 
-    <pl.lebihan.authnkey.PinInputField
+    <com.swissbit.ishield.fidobridge.PinInputField
         android:id="@+id/newPin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
         app:pinHint="@string/pin_hint_new"
         style="@style/Widget.Material3.TextInputLayout.OutlinedBox" />
 
-    <pl.lebihan.authnkey.PinInputField
+    <com.swissbit.ishield.fidobridge.PinInputField
         android:id="@+id/confirmPin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

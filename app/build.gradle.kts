@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace = "pl.lebihan.authnkey"
+    namespace = "com.swissbit.ishield.fidobridge"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "pl.lebihan.authnkey"
+        applicationId = "com.swissbit.ishield.fidobridge"
         minSdk = 34
         targetSdk = 37
         versionCode = 13
@@ -36,8 +36,10 @@ android {
     }
 
     androidResources {
-        @Suppress("UnstableApiUsage")
-        generateLocaleConfig = true
+        // Add multilingual locales support later
+        // @Suppress("UnstableApiUsage")
+        generateLocaleConfig = false
+        localeFilters += listOf("en")
     }
 
     compileOptions {
